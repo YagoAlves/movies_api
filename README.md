@@ -8,11 +8,8 @@ A Django API that will serve data from imdb movies csv.
 2. Run the command pip install -r requirements.txt
 3. Run the migrations using the command :  python manage.py migrate  
 4. Run the command python manage.py runserver 
-
-# Tips 
-
-There is a command to import the movies.csv. Command : python manage.py load_movies_csv   
-To run the automated tests, you can use : ./manage.py test 
+5. To load the data use the command : python manage.py load_movies_csv 
+6. To make sure that everything went well use the automated tests : ./manage.py test  
 
 # How to use 
 
