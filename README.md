@@ -5,9 +5,9 @@ A Django API that will serve data from imdb movies csv.
 # How to run 
 
 1. Clone the repository and create a python3 venv (I'm using 3.8.10)  
-2. Run the command pip install -r requirements.txt
+2. Run the command : pip install -r requirements.txt
 3. Run the migrations using the command :  python manage.py migrate  
-4. Run the command python manage.py runserver 
+4. Run the command : python manage.py runserver 
 5. To load the data use the command : python manage.py load_movies_csv 
 6. To make sure that everything went well use the automated tests : ./manage.py test  
 
